@@ -1,0 +1,7 @@
+---------------------
+---- MY PROGRAMS ----
+---------------------
+
+terminal    = "kitty"
+fileManager = "dolphin"
+menu        = "hyprlauncher"
