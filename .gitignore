@@ -1,4 +1,5 @@
-./dconf/
-./mozilla/
-./user-dirs.dirs
-./user-dirs.locale
+dconf/
+pulse/
+mozilla/
+user-dirs.dirs
+user-dirs.locale
