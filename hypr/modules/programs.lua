@@ -3,4 +3,4 @@
 ---------------------
 
 terminal    = "kitty"
-menu        = "hyprlauncher"
+menu        = "hyprlauncher -t"
