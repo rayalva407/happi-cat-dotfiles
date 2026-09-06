@@ -1,10 +1,6 @@
-import QtQuick
 import Quickshell
-import "./launcher"
+import "./panel"
 
 Scope {
-    id: root
-
-    LauncherWindow { id: launcher }
-
+    Panel { id: panel }
 }

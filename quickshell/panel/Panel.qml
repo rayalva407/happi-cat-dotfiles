@@ -1,0 +1,27 @@
+import Quickshell
+import Quickshell.Io
+import QtQuick
+import "../clock"
+
+Scope {
+    Variants {
+        model: Quickshell.screens
+
+        PanelWindow {
+            required property var modelData
+            screen: modelData
+
+            anchors {
+              top: true
+              left: true
+              right: true
+            }
+
+            implicitHeight: 32
+
+            ClockWidget {
+                anchors.centerIn: parent
+            }
+        }
+    }
+}
