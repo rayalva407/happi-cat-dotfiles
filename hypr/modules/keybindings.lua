@@ -33,8 +33,8 @@ hl.bind(shiftMod .. " + J", hl.dsp.window.move({ direction = "down" }))
 -- Move/Resize windows with ctrlMod + VIM keys
 hl.bind(ctrlMod .. " + H", hl.dsp.window.resize({ x = -100, y = 0, relative = true }), {repeating = true})
 hl.bind(ctrlMod .. " + L", hl.dsp.window.resize({ x = 100, y = 0, relative = true }), {repeating = true})
-hl.bind(ctrlMod .. " + K", hl.dsp.window.resize({ x = 0, y = 100, relative = true }), {repeating = true})
-hl.bind(ctrlMod .. " + J", hl.dsp.window.resize({ x = 0, y = -100, relative = true }), {repeating = true})
+hl.bind(ctrlMod .. " + K", hl.dsp.window.resize({ x = 0, y = -100, relative = true }), {repeating = true})
+hl.bind(ctrlMod .. " + J", hl.dsp.window.resize({ x = 0, y = 100, relative = true }), {repeating = true})
 
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
