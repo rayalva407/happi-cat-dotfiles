@@ -8,7 +8,7 @@ hl.config({
         gaps_in  = 4,
         gaps_out = 8,
 
-        border_size = 2,
+        border_size = 3,
 
         col = {
             active_border   = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45 },
@@ -102,6 +102,7 @@ hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "
 hl.config({
     dwindle = {
         preserve_split = true, -- You probably want this
+        split_width_multiplier = 2.0
     },
 })
 
